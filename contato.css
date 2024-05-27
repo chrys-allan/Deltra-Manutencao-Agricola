@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;600;700&display=swap');
+
+*{
+  font-family: 'Jura', sans-serif;
+  font-weight: 500; 
+  background-color: transparent;
+}
+
+body{
+  background: #000000;
+}
+
+main{
+  background-color: #C5C6C4;
+}
+
+.conteudo-princil-escrito-titulo {
+  text-align: center;
+  font-size: 48px;
+  padding-top: 32px;
+}
+
+input{
+  color: black;
+  padding-left: 6px;
+  font-size: 12pt;
+}
+
+.conteudo-formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin: 0 auto;
+  padding-top: 80px;
+  gap: 16px;
+  width: 100%;
+}
+
+.conteudo-formulario-dados{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+  width: 40%;
+  gap: 16px;
+}
+
+.conteudo-formulario-dados-item{ 
+  border: 2px solid black;
+  width: 100%;
+  height: 32px;
+  border-radius: 4px;
+  outline: 0;
+  outline-color: #FFC457;
+}
+
+.conteudo-formulario-dados-item:focus-visible{
+  border-color: #FFC457;
+}
+
+.conteudo-formulario-mensagem{
+  display: block;
+
+  border: 2px solid black;
+
+  padding-left: 6px;
+  width: 40%;
+  height: 320px;
+
+  resize: none;
+
+  border-radius: 4px;
+  outline: 0;
+  outline-color: #FFC457;
+
+  font-size: 12pt;
+}
+
+.conteudo-formulario-mensagem:focus-visible{
+  border-color: #FFC457;
+}
+
+.botao{
+  text-align: center;
+  padding: 2%;
+  width: 100%;
+}
+
+.botao-mensagem{
+  cursor: pointer;
+  border-radius: 4px;
+  
+  width: 5%;
+  height: 40px;
+ 
+  border-radius: 4px;
+
+  background: #000000;
+  color: #FFC457;
+
+  font-size: 20px;
+  transition: background-color 1ms;
+}
+
+.botao-mensagem:hover{
+  background: #FFC457;
+  color: #000000;
+}
+
+footer{
+  background: black;
+  width: 100vw;
+}
+
+.rodape{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100vw;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.rodape-informacoes{
+  align-items: start;
+  text-align: start;
+  padding-left: 24px;
+}
+
+.rodape-titulo {
+  font-size: 32px;
+}
+
+.copyright-desktop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  font-size: 1.1rem;
+
+  padding-top: 80px;
+}
+
+.copyright-mobile{
+  display: none;
+}
+
+.redes-sociais{
+  display: flex;
+  flex-direction: row;
+
+  padding-left: 16.5%;
+  padding-top: 48px;
+  padding-right: 24px;
+}
+
+.redes-sociais-items{
+  display: flex;
+  align-items: end;
+  
+  gap: 12px;
+}
+
+@media(max-width: 768px){
+  .botao{
+    align-items: center;
+
+    padding: 0%;
+    padding-bottom: 25px;
+
+  }
+
+  .botao-mensagem{
+    align-items: center;
+    width: 35%;
+    height: 35%;
+  }
+
+  .rodape{
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .conteudo-formulario{
+    padding-bottom: 15px;
+  }
+
+  .conteudo-formulario-dados{
+    width: 85%;
+  }
+
+  .conteudo-formulario-mensagem{
+    width: 85%;
+  }
+
+  .redes-sociais{
+    display: flex;
+    justify-content: center;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 12%;
+  }
+
+  .redes-sociais-items{
+  }
+
+  .copyright-desktop{
+    display: none;
+  }
+
+  .copyright-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+    padding-top: 8%;
+
+    font-size: 0.9rem;
+  }
+}
+

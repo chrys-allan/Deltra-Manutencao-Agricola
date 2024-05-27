@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;600;700&display=swap');
+
+body{
+    background-image: url(Sobre.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: auto;
+    height: fit-content;
+}
+
+.conteudo-principal-imagem{
+    height: 900px;
+    width: 1920px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.conteudo-princil-escrito-titulo{
+    font-family: 'Jura', sans-serif;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 48px;
+
+}
