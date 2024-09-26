@@ -1,0 +1,38 @@
+#about{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.about-text{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--color-neutral-0);
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 1500px){
+    .about-text{
+        font-size: 2rem;
+    }
+    #about .section-title{
+        font-size: 2.2rem;
+    }
+    #about .section-subtitle{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .about-text{
+        font-size: 1.5rem;
+    }
+    #about .section-title{
+        font-size: 2rem;
+    }
+    #about .section-subtitle{
+        font-size: 2.7rem;
+    }
+}

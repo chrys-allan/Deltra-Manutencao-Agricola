@@ -1,0 +1,116 @@
+#home{
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 87px);
+    margin-bottom: 5%;
+    width: 100%;
+}
+#cta{
+    display: flex;
+    flex-direction: column;
+    
+    width: 35%;
+    gap: 28px;
+    margin-top: 5%;
+}
+#cta .title{
+    font-size: 4.3rem;
+    color: var(--color-neutral-0);
+}
+#cta .title span{
+    color: var(--color-primary-7);
+}
+#cta .description{
+    font-size: 1.4rem;
+    color: var(--color-neutral-0);
+}
+#banner{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+
+    padding-top: 28px;
+    width: 65%;
+    z-index: 1;
+}
+#banner img{
+    width: fit-content;
+    opacity: 0.85;
+    max-height: 740px;
+    border-radius: 24px;
+    border: 1px solid var(--color-primary-7);
+    padding: 8px;
+}
+@media screen and (max-width: 1840px){
+    #home{
+        display: flex;
+        justify-content: space-between;
+        gap: 36px;
+    }
+    #banner img{
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        width: 85%;
+    }
+}
+@media screen and (max-width: 1730px){
+    #cta .title{
+        font-size: 3.7rem;
+    }
+    #cta .description{
+        font-size: 1.2rem;
+    }
+   
+}
+@media screen and (max-width: 1495px){
+    #cta .title{
+        font-size: 3.3rem;
+    }
+
+    #cta{
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width: 1120px){
+    #cta .title{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    #home{
+        display: flex;
+        flex-direction: column;
+    }
+    #cta{
+        display: flex;
+        justify-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    #cta .description{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .social-media-buttons{
+        display: flex;
+        justify-content: center;
+    }
+    #banner{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #banner img{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 800px){
+    #cta .description{
+        text-align: start;
+    }
+    #banner img{
+        width: 95%;
+    }
+}

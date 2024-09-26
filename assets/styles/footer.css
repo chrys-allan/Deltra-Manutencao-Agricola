@@ -1,0 +1,28 @@
+footer{
+    background-color: var(--color-neutral-9);
+}
+#footer_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 8% 24px 8%;
+}
+#copyright{
+    color: var(--color-neutral-1);
+    font-weight: 500;
+}
+.mobile-footer{
+    display: none;
+}
+@media screen and (max-width: 1170px){
+    #mobile_footer{
+        display: contents;
+    }
+}
+@media screen and (max-width: 600px){
+    #footer_items{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
