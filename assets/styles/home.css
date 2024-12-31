@@ -13,6 +13,7 @@
     gap: 28px;
     margin-top: 5%;
 }
+
 #cta .title{
     font-size: 4.3rem;
     color: var(--color-neutral-0);
@@ -20,9 +21,18 @@
 #cta .title span{
     color: var(--color-primary-7);
 }
+#cta .location{
+    display: flex;
+    flex-direction: row;
+    gap: 8px
+}
 #cta .description{
     font-size: 1.4rem;
     color: var(--color-neutral-0);
+}
+.location i{
+    font-size: 1.2rem;
+    color: var(--color-primary-7);
 }
 #banner{
     display: flex;

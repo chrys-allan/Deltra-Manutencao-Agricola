@@ -34,13 +34,16 @@ header{
 }
 #nav_btn{
     display: flex;
-    font-weight: 700;
+    font-weight: 600;
 
     gap: 24px;
     border-radius: 12px;
     
     background-color: var(--color-primary-7);
     transition: background-color .3s ease;
+}
+#nav_btn i{
+    font-weight: 600;
 }
 #nav_btn:hover{
     background-color: var(--color-neutral-0);
