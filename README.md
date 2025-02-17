@@ -43,8 +43,14 @@ This project is a responsive website for **Deltra Manutenção Agrícola**, a co
 - **Contact Us:** Connect through WhatsApp and follow on social media.
 
 ## Screenshots
+  **Home**
+![image](https://github.com/user-attachments/assets/ae31ddad-4bae-4c5b-8fe6-0521672053e2)
+  **About**
+![image](https://github.com/user-attachments/assets/c55670c9-f2af-401d-a7f0-5d02e85aebc0)
+  **Services**
+![image](https://github.com/user-attachments/assets/acf72e8e-7b85-4f85-b41d-65bff1beb06a)
+![image](https://github.com/user-attachments/assets/f023c801-eb22-44a1-ac4a-9acd7ab19cb9)
 
-*(Add screenshots of the homepage, services section, and about page for visual reference.)*
 
 ## Social Media Links
 
