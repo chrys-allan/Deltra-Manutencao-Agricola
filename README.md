@@ -48,7 +48,7 @@ This project is a responsive website for **Deltra Manutenção Agrícola**, a co
   **About**
 ![image](https://github.com/user-attachments/assets/215eb5bd-0094-4a62-9807-da3fcdedc0cc)
   **Services**
-![image](https://github.com/user-attachments/assets/acf72e8e-7b85-4f85-b41d-65bff1beb06a)
+![image](https://github.com/user-attachments/assets/47e584cd-58d0-4b99-bf82-810e7ff0e639)
 ![image](https://github.com/user-attachments/assets/f023c801-eb22-44a1-ac4a-9acd7ab19cb9)
 
 
